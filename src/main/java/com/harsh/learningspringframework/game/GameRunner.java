@@ -8,7 +8,7 @@ public class GameRunner {
 //        this.game = game;
 //    }
 
-    SuperContraGame game;
+    private SuperContraGame game;
 
     public GameRunner(SuperContraGame game)
     {
