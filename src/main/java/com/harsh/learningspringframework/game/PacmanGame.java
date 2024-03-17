@@ -1,6 +1,6 @@
 package com.harsh.learningspringframework.game;
 
-public class PacmanGame
+public class PacmanGame implements GamingConsole
 {
     public void up()
     {
