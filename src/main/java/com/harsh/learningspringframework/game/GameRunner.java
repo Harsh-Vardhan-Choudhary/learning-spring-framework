@@ -1,5 +1,8 @@
 package com.harsh.learningspringframework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner 
 {
     //here the GameRunner class is tightly coupled to any particular gaming class
