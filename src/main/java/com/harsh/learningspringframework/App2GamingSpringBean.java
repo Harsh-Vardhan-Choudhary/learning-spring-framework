@@ -14,9 +14,9 @@ import com.harsh.learningspringframework.game.PacmanGame;
 import com.harsh.learningspringframework.game.SuperContraGame;
 
 @Configuration
-class GamingConfiguration 
+public class App2GamingSpringBean 
 {
-    @Bean
+	@Bean
     public GamingConsole game()
     {
         var game = new PacmanGame();
@@ -29,14 +29,9 @@ class GamingConfiguration
         var gameRunner = new GameRunner(game);
         return gameRunner;
     }
-    
-}
-
-public class App2GamingSpringBean 
-{
 	public static void main(String[] args)
 	{
-		try (var context = new AnnotationConfigApplicationContext(GamingConfiguration.class)) 
+		try (var context = new AnnotationConfigApplicationContext(App2GamingSpringBean.class)) 
 		{
 			context.getBean(GamingConsole.class).up();
 
