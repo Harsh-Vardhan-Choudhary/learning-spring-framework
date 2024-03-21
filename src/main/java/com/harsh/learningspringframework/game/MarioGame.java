@@ -1,5 +1,10 @@
 package com.harsh.learningspringframework.game;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Primary
+@Component
 public class MarioGame implements GamingConsole
 {	
     public void up() 
