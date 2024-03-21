@@ -11,11 +11,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan("com.harsh.learningspringframework.game")
-public class App2GamingSpringBean 
+public class GamingAppLauncherApplication 
 {
 	public static void main(String[] args)
 	{
-		try (var context = new AnnotationConfigApplicationContext(App2GamingSpringBean.class)) 
+		try (var context = new AnnotationConfigApplicationContext(GamingAppLauncherApplication.class)) 
 		{
 			context.getBean(GamingConsole.class).up();
 
