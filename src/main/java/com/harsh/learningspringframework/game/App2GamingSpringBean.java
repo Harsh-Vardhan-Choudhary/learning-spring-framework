@@ -1,4 +1,4 @@
-package com.harsh.learningspringframework;
+package com.harsh.learningspringframework.game;
 
 import java.text.Annotation;
 
@@ -8,12 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScans;
 import org.springframework.context.annotation.Configuration;
-
-import com.harsh.learningspringframework.game.GameRunner;
-import com.harsh.learningspringframework.game.GamingConsole;
-import com.harsh.learningspringframework.game.MarioGame;
-import com.harsh.learningspringframework.game.PacmanGame;
-import com.harsh.learningspringframework.game.SuperContraGame;
 
 @Configuration
 @ComponentScan("com.harsh.learningspringframework.game")

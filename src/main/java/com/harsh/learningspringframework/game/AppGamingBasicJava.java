@@ -1,9 +1,4 @@
-package com.harsh.learningspringframework;
-
-import com.harsh.learningspringframework.game.GameRunner;
-import com.harsh.learningspringframework.game.MarioGame;
-import com.harsh.learningspringframework.game.PacmanGame;
-import com.harsh.learningspringframework.game.SuperContraGame;
+package com.harsh.learningspringframework.game;
 
 public class AppGamingBasicJava 
 {
