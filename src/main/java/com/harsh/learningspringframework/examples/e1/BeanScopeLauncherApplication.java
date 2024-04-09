@@ -18,6 +18,7 @@ class NormalClass
 
 }
 
+//@Scope(value = "prototype")	 - this will also work
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 @Component
 class PrototypeClass
